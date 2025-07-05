@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "filesystem": {
+       "command": "C:\\Program Files\\nodejs\\npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:/Users/DELL/Desktop/mcp-clientt"
+      ]
+    },
+	"Python-MCP-Server": {
+		"command": "c:\\Users\\DELL\\.local\\bin\\uv.exe",
+		"args": [
+		  "run",
+		  "--with",
+		  "mcp[cli]",
+		  "mcp",
+		  "run",
+		  "C:/Users/DELL/Documents/workspace-spring-tools-for-eclipse-4.30.0.RELEASE/mcp-demo-python/python-mcp-server/server.py"
+		]
+
+	   }
+  }
+}
